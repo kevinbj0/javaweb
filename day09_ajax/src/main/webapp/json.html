@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+	let snack = {
+		name:"맛동산",
+		price:3800
+	};
+	
+	console.log(snack);
+	
+	//멤버로 메서드를 만들 떄는 저렇게 만들어야함
+	let score = {
+		name : "홍길동",
+		kor:90,
+		eng:90,
+		math:80,
+		tot:0,
+		
+		calcTot:function(){
+			this.tot = this.kor + this.eng + this.math;
+		},
+		
+		hi: function(){
+			alert("score 객체");
+		}
+	}
+	score.hi();
+	console.log(score.tot);
+	score.calcTot();
+	console.log(score.tot);
+</script>
+</body>
+</html>

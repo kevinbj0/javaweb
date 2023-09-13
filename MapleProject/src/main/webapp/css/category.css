@@ -1,0 +1,59 @@
+@charset "UTF-8";
+ .jy_total {
+        position: relative;
+        width: 100%;
+        border-top: 4px solid#ed9a39;
+        margin-top: -8px;
+        /* border: 1px solid black; */
+        font-family: "돋움", Dotum, "맑은 고딕", "Malgun Gothic", "Apple Gothic",
+          sans-serif;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(#ed9a39, white);
+      }
+      .jy_wrap {
+        border: solid 2px var(--GRAY125S, #e5e5e5);
+        width: 580px;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: -40px;
+        background-image: url("https://dtd31o1ybbmk8.cloudfront.net/photos/fa92c3c34fa0642d0d222c899ad4f29e/thumb.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .jy_header {
+        /* border: 1px solid black; */
+        margin: 0 auto;
+        width: 550px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+      }
+      .jy_header > img {
+        width: 280px;
+        height: 135px;
+        margin-top: 15px;
+        margin-bottom: 18px;
+      }
+      .jy_body {
+        width: 600px;
+        height: 500px;
+        border-radius: 2px;
+        margin: 0 auto;
+        font-family: "Apple SD Gothic Neo", "Noto Sans KR", "맑은 고딕",
+          "Malgun Gothic", 돋움, Dotum, sans-serif;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+      button {
+        height: 30px;
+        width: 130px;
+        height: 90px;
+        /* border-radius: 15px; */
+        margin-left: 111px;
+        background-color: #ed9a39;
+        color: white;
+      }

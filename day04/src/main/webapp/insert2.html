@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function check(){
+	//return false
+	/*let frm = document.frm;
+	let item_code = frm.item_code;
+	let item_name = frm.item_name;
+	let success = frm.success;
+	let price = frm.price;
+	
+	if( item_code.value  ==""){
+		alert("코드입력");
+		item_code.focus();
+		return false;
+	}
+	if( item_name.value ==""){
+		alert("이름입력");
+		item_name.focus();
+		return false;	
+	}	
+	if( success.value ==""){
+		alert("확률입력");
+		success.focus();
+		return false;	
+	}	
+	
+	if( price.value ==""){
+		alert("가격입력");
+		price.focus();
+		return false;	
+	}	
+	
+	
+	
+	*/
+	
+	return true;
+}
+</script>
+</head>
+<body>
+<!--submit을 중지하고 싶을 때 사용할 수 있음 -->
+<form  name="frm"  action="insert_action2.jsp" method="post"  onsubmit="return check()" >	
+	<input type="text" name="item_code"> 
+	<input type="text" name="item_name">
+	<input type="text" name="success">
+	<input type="text" name="price"><br>
+	<button >회원가입</button>		
+</form>
+</body>
+</html>
